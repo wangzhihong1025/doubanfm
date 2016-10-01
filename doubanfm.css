@@ -1,0 +1,100 @@
+#fmpicture {
+    position: absolute;
+    top: 70px;
+    left: 315px;
+}
+
+#user {
+    position: absolute;
+    right: 480px;
+}
+
+#Eternal {
+    position: absolute;
+    right: 420px;
+}
+
+#xiala {
+    position: absolute;
+    right: 385px;
+}
+
+#xialakuang {
+    position: absolute;
+    top: 22px;
+    right: 2px;
+    width: 100px;
+    height: 120px
+}
+
+#xialakuang li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+#xialakuang li a {
+    text-decoration: none;
+}
+
+#userlan {
+    position: absolute;
+    right: 110px;
+}
+
+#userlan a {
+    text-decoration: none;
+}
+
+.fontsize {
+    font-size: 15px;
+}
+
+.hid {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.choosebgcolor {
+    background-color: rgba(154, 174, 168, 0.498);
+    width: 205px;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 13px;
+}
+
+.astyle {
+    text-decoration: none;
+}
+
+.listyle {
+    list-style-type: none;
+}
+
+#sirenul {
+    position: absolute;
+    top: 165px;
+    left: 265px;
+}
+#zuijinshouting{
+	position: absolute;
+	top: 365px;
+	left: 300px;
+    font-size:13px;
+}
+.hr1{
+	position: absolute;
+	top: 1px;
+	left: 65px;
+	width: 155px;
+}
+.hr2{
+	position: absolute;
+	top: 42px;
+	left: 65px;
+	width: 155px;
+}
