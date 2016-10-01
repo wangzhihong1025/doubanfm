@@ -1,3 +1,7 @@
+/*#diyilan{
+	z-index: 10;
+}*/
+
 #fmpicture {
     position: absolute;
     top: 70px;
@@ -61,7 +65,7 @@
     background-color: rgba(154, 174, 168, 0.498);
     width: 205px;
     height: 25px;
-    padding: 5px;
+    padding: 7px;
     text-align: center;
     line-height: 25px;
     font-size: 13px;
@@ -71,30 +75,150 @@
     text-decoration: none;
 }
 
+#gundong {
+    position: absolute;
+    top: 145px;
+    left: 265px;
+    width: 265px;
+    height: 390px;
+    overflow: hidden;
+}
+
+#listul {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 400px;
+    overflow-y: auto;
+}
+
 .listyle {
     list-style-type: none;
 }
 
-#sirenul {
+.hr1 {
     position: absolute;
-    top: 165px;
-    left: 265px;
+    top: 206px;
+    left: 100px;
+    width: 155px;
 }
-#zuijinshouting{
-	position: absolute;
-	top: 365px;
-	left: 300px;
-    font-size:13px;
+
+.hr2 {
+    position: absolute;
+    top: 242px;
+    left: 100px;
+    width: 155px;
 }
-.hr1{
-	position: absolute;
-	top: 1px;
-	left: 65px;
-	width: 155px;
+
+.hr3 {
+    position: absolute;
+    top: 577px;
+    left: 100px;
+    width: 155px;
 }
-.hr2{
-	position: absolute;
-	top: 42px;
-	left: 65px;
-	width: 155px;
+
+#singerphoto {
+    position: absolute;
+    top: 105px;
+    left: 620px;
+    height: 245px;
+    width: 250px;
+}
+
+#photoyinying {
+    position: absolute;
+    top: 105px;
+    left: 620px;
+    width: 250px;
+    height: 245px;
+    background: black;
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+    z-index: 10;
+    display: none;
+}
+
+#chakan {
+    position: absolute;
+    top: 105px;
+    left: 100px;
+    color: black;
+    font-size: 14px;
+}
+
+#chakan a {
+    text-decoration: none;
+}
+
+#singer {
+    position: absolute;
+    top: 26px;
+    left: 35px;
+}
+
+#bg {
+    position: absolute;
+    top: 105px;
+    right: 220px;
+    background-color: white;
+    width: 260px;
+    height: 245px;
+}
+
+#musicyinying {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 260px;
+    height: 245px;
+    background: white;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    z-index: 10;
+    display: none;
+}
+
+#jixu {
+    position: absolute;
+    top: 105px;
+    left: 100px;
+    color: black;
+    font-size: 14px;
+}
+
+#jixu a {
+    text-decoration: none;
+}
+
+#play {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#jindutiao {
+    position: absolute;
+    top: 110px;
+    left: 30px;
+    width: 210px;
+    height: 1px;
+    border: 1px solid gray;
+    background-color: gainsboro;
+}
+
+#jindu {
+    position: absolute;
+    top: 110px;
+    left: 30px;
+    width: 210px;
+    height: 1px;
+    border: 1px solid gray;
+    background-color: green;
+}
+
+#xihuan {
+    position: absolute;
+    top: 200px;
+    left: 200px;
 }
