@@ -160,11 +160,11 @@
     renren.onmouseout = function() {
         renren.src = "img/renren.jpg";
     }
-    var img4 = document.getElementById('img4');
-    img4.onmouseover = function() {
-        img4.src = "img/4.01.jpg";
+    var img40 = document.getElementById('img40');
+    img40.onmouseover = function() {
+        img40.src = "img/4.01.jpg";
     }
-    img4.onmouseout = function() {
-        img4.src = "img/4.0.jpg";
+    img40.onmouseout = function() {
+        img40.src = "img/4.0.jpg";
     }
 }(window))

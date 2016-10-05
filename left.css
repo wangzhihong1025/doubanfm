@@ -69,3 +69,72 @@
 	height: 286px;
 	background-color: #eff5f2;
 }
+
+#img1_6{
+    position: absolute;
+    top:5px;
+    left: 0px;
+    width: 290px;
+    height: 275px; 
+}
+
+#nav1{
+	position: absolute;
+	top: 30px;
+	left: 320px;
+}
+
+#imgxia{
+	position: absolute;
+	top: 45px;
+	left: 0px;
+}
+
+#img1_shuoming{
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	font-size: 13px;
+	width: 330px;
+	height: 100px;
+}
+#img2_shuoming{
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	font-size: 13px;
+	width: 330px;
+	height: 100px;
+}
+#img3_shuoming{
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	font-size: 13px;
+	width: 330px;
+	height: 100px;
+}
+#img4_shuoming{
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	font-size: 13px;
+	width: 330px;
+	height: 100px;
+}
+#img5_shuoming{
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	font-size: 13px;
+	width: 330px;
+	height: 100px;
+}
+#img6_shuoming{
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	font-size: 13px;
+	width: 330px;
+	height: 100px;
+}
