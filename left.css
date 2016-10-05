@@ -1,17 +1,16 @@
-#leftlan{
-	position: absolute;
-	top: 0px;
-	/*left: -700px;*/
-	left: 0px;
-	background-color: white;
-	z-index: 10;
-	width: 700px;
-	height: 800px;
+#leftlan {
+    position: absolute;
+    top: 0px;
+    left: -700px;
+    background-color: white;
+    z-index: 10;
+    width: 700px;
+    height: 1550px;
     transition-duration: 2s;
     transition-property: left;
 }
 
-#zhankai{
+#zhankai {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -19,122 +18,398 @@
     width: 25px;
 }
 
-#shouqi{
+#shouqi {
     position: fixed;
     top: -1px;
-    /*left: -25px;*/
-    left: 675px;
+    left: -25px;
     height: 655px;
     width: 25px;
     transition-duration: 2s;
     transition-property: left;
 }
 
-#diyi{
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 675px;
-	height: 173px;
-}
-#all{
-	position: absolute;
-	top: 65px;
-	left: 55px;
-	font-size: 35px;
-}
-
-#search{
-   position: absolute;
-   top: 70px;
-   left: 395px;
-   font-size: 15px;
-   width: 245px;
-   height: 25px;
-}
-
-#sphoto{
-	position: absolute;
-	top: 75px;
-	left: 620px;
-	width: 20px;
-	height: 22px;
-}
-
-#daohang{
-	position: absolute;
-	top: 173px;
-	left: 0px;
-	width: 675px;
-	height: 286px;
-	background-color: #eff5f2;
-}
-
-#img1_6{
+#diyi {
     position: absolute;
-    top:5px;
+    top: 0px;
+    left: 0px;
+    width: 675px;
+    height: 173px;
+}
+
+#all {
+    position: absolute;
+    top: 65px;
+    left: 55px;
+    font-size: 35px;
+}
+
+#search {
+    position: absolute;
+    top: 70px;
+    left: 395px;
+    font-size: 15px;
+    width: 245px;
+    height: 25px;
+}
+
+#sphoto {
+    position: absolute;
+    top: 75px;
+    left: 620px;
+    width: 20px;
+    height: 22px;
+}
+
+#daohang {
+    position: absolute;
+    top: 173px;
+    left: 0px;
+    width: 675px;
+    height: 286px;
+    background-color: #eff5f2;
+}
+
+#img1_6 {
+    position: absolute;
+    top: 5px;
     left: 0px;
     width: 290px;
-    height: 275px; 
+    height: 275px;
 }
 
-#nav1{
-	position: absolute;
-	top: 30px;
-	left: 320px;
+#nav1 {
+    position: absolute;
+    top: 30px;
+    left: 320px;
 }
 
-#imgxia{
-	position: absolute;
-	top: 45px;
-	left: 0px;
+#imgxia {
+    position: absolute;
+    top: 45px;
+    left: 0px;
 }
 
-#img1_shuoming{
-	position: absolute;
-	top: 100px;
-	left: 0px;
-	font-size: 13px;
-	width: 330px;
-	height: 100px;
+#img1_shuoming {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    font-size: 13px;
+    width: 330px;
+    height: 100px;
 }
-#img2_shuoming{
-	position: absolute;
-	top: 100px;
-	left: 0px;
-	font-size: 13px;
-	width: 330px;
-	height: 100px;
+
+#img2_shuoming {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    font-size: 13px;
+    width: 330px;
+    height: 100px;
 }
-#img3_shuoming{
-	position: absolute;
-	top: 100px;
-	left: 0px;
-	font-size: 13px;
-	width: 330px;
-	height: 100px;
+
+#img3_shuoming {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    font-size: 13px;
+    width: 330px;
+    height: 100px;
 }
-#img4_shuoming{
-	position: absolute;
-	top: 100px;
-	left: 0px;
-	font-size: 13px;
-	width: 330px;
-	height: 100px;
+
+#img4_shuoming {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    font-size: 13px;
+    width: 330px;
+    height: 100px;
 }
-#img5_shuoming{
-	position: absolute;
-	top: 100px;
-	left: 0px;
-	font-size: 13px;
-	width: 330px;
-	height: 100px;
+
+#img5_shuoming {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    font-size: 13px;
+    width: 330px;
+    height: 100px;
 }
-#img6_shuoming{
-	position: absolute;
-	top: 100px;
-	left: 0px;
-	font-size: 13px;
-	width: 330px;
-	height: 100px;
+
+#img6_shuoming {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    font-size: 13px;
+    width: 330px;
+    height: 100px;
+}
+
+#disan {
+    position: absolute;
+    top: 460px;
+    left: 0px;
+    width: 675px;
+    height: 500px;
+}
+
+#yaogun {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    font-size: 13px;
+    padding: 10px;
+}
+
+#yaogun a {
+    text-decoration: none;
+}
+
+#yaogun a:hover {
+    color: green;
+}
+
+#remen {
+    position: absolute;
+    top: 100px;
+    left: 48px;
+    font-size: 13px
+}
+
+#navhuayu {
+    position: absolute;
+    top: 135px;
+    left: 50px;
+}
+
+#navhuayu li {
+    padding: 10px;
+}
+
+.li {
+    list-style-type: none;
+}
+
+.circle {
+    border-radius: 25px;
+}
+
+.line {
+    text-decoration: none;
+}
+
+.biaoti {
+    font-size: 15px;
+}
+
+.futi {
+    font-size: 13px;
+}
+
+#hua {
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    width: 145px;
+}
+
+#ba {
+    position: absolute;
+    top: 85px;
+    left: 65px;
+    width: 145px;
+}
+
+#yue {
+    position: absolute;
+    top: 150px;
+    left: 65px;
+    width: 145px;
+}
+
+#kafei {
+    position: absolute;
+    top: 220px;
+    left: 65px;
+    width: 145px;
+}
+
+#book {
+    position: absolute;
+    top: 290px;
+    left: 65px;
+    width: 145px;
+}
+
+#navoumei {
+    position: absolute;
+    top: 135px;
+    left: 390px;
+}
+
+#navoumei li {
+    padding: 10px;
+}
+
+#ou {
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    width: 145px;
+}
+
+#work {
+    position: absolute;
+    top: 85px;
+    left: 65px;
+    width: 145px;
+}
+
+#qingyinyue {
+    position: absolute;
+    top: 150px;
+    left: 65px;
+    width: 145px;
+}
+
+#gushi {
+    position: absolute;
+    top: 220px;
+    left: 65px;
+    width: 145px;
+}
+
+#jueshi {
+    position: absolute;
+    top: 290px;
+    left: 65px;
+    width: 145px;
+}
+
+#fast {
+    position: absolute;
+    top: 510px;
+    left: 48px;
+    font-size: 13px
+}
+
+#navwork {
+    position: absolute;
+    top: 545px;
+    left: 50px;
+}
+
+#navwork li {
+    padding: 10px;
+}
+
+#study {
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    width: 145px;
+}
+
+#xinge {
+    position: absolute;
+    top: 85px;
+    left: 65px;
+    width: 145px;
+}
+
+#gudian {
+    position: absolute;
+    top: 150px;
+    left: 65px;
+    width: 145px;
+}
+
+#minyao {
+    position: absolute;
+    top: 220px;
+    left: 65px;
+    width: 145px;
+}
+
+#dianying {
+    position: absolute;
+    top: 290px;
+    left: 65px;
+    width: 145px;
+}
+
+#navxiaoqingxin {
+    position: absolute;
+    top: 535px;
+    left: 390px;
+}
+
+#navxiaoqingxin li {
+    padding: 10px;
+}
+
+#xiaoqingxin {
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    width: 145px;
+}
+
+#ka {
+    position: absolute;
+    top: 85px;
+    left: 65px;
+    width: 145px;
+}
+
+#jue {
+    position: absolute;
+    top: 220px;
+    left: 65px;
+    width: 145px;
+}
+
+#qing {
+    position: absolute;
+    top: 150px;
+    left: 65px;
+    width: 145px;
+}
+
+#jiuling {
+    position: absolute;
+    top: 290px;
+    left: 65px;
+    width: 145px;
+}
+
+#pin {
+    position: absolute;
+    top: 910px;
+    left: 48px;
+    font-size: 13px
+}
+
+#last {
+    position: absolute;
+    top: 535px;
+    left: 390px;
+}
+
+#dreamp {
+    position: absolute;
+    top: 410px;
+    left: -330px;
+}
+
+#dream {
+    position: absolute;
+    top: 415px;
+    left: -275px;
+    width: 145px;
+}
+
+#song50 {
+    position: absolute;
+    top: 440px;
+    left: -275px;
+    width: 145px;
 }
