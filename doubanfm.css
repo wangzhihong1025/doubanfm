@@ -12,7 +12,7 @@
 }
 
 #xiala a {
-    text-decoration:none;
+    text-decoration: none;
 }
 
 #xialakuang {
@@ -212,6 +212,30 @@
     background-color: green;
 }
 
+#volumep {
+    position: absolute;
+    top: 136px;
+    left: 158px;
+}
+
+#volume {
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    top: 140px;
+    left: 170px;
+    background-color: grey;
+}
+
+#volumemove {
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    top: 140px;
+    left: 170px;
+    background-color: blue;
+}
+
 #xihuan {
     position: absolute;
     top: 165px;
@@ -371,26 +395,25 @@
     height: 35px;
 }
 
-#guanggao{
-	position: absolute;
-	top: 675px;
-	left: 805px;
-	font-size: 12px;
+#guanggao {
+    position: absolute;
+    top: 675px;
+    left: 805px;
+    font-size: 12px;
 }
 
-#guanggao a{
-	text-decoration:none;
+#guanggao a {
+    text-decoration: none;
 }
 
-#center{
-	width: 100%;
-	position: absolute;
-	top: 705px;
-	text-align:center;
-	font-size: 12px;
+#center {
+    width: 100%;
+    position: absolute;
+    top: 705px;
+    text-align: center;
+    font-size: 12px;
 }
 
-#center a{
-	text-decoration:none;
+#center a {
+    text-decoration: none;
 }
-

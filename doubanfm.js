@@ -29,6 +29,20 @@
         jindu.style.width = percent * 210 + "px";
         audio.currentTime = percent * audio.duration;
     }
+    var volume = document.getElementById('volume');
+    var volumemove = document.getElementById('volumemove');
+    volume.onmousedown = function(event) {
+        var length = event.clientX - volume.offsetLeft;
+        var percent = (length - 870) / volume.offsetWidth;
+        volumemove.style.width = percent * 70 + "px";
+        audio.volume = percent;
+    }
+    volumemove.onmousedown = function(event) {
+        var length = event.clientX - volume.offsetLeft;
+        var percent = (length - 870) / volume.offsetWidth;
+        volumemove.style.width = percent * 70 + "px";
+        audio.volume = percent;
+    }
     var play = document.getElementById('play');
     var musicyinying = document.getElementById('musicyinying');
     var jixu = document.getElementById('jixu');
